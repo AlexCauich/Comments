@@ -26,7 +26,7 @@
                         <?php if (!$_GET['edit']) { ?>
                             <form action="insert.php" method="POST">
                                 <div class="form-group">
-                                    <textarea name="comment" id="" cols="40" rows="4" placeholder="New Comment..."></textarea>
+                                    <textarea name="comment" cols="40" rows="4" required placeholder="New Comment..."></textarea>
                                 </div>
                                 <div class="form-group">
                                     <button class="btn btn-primary btn-block" type="submit">Save Comment</button>
@@ -82,6 +82,7 @@
     <!-- Optional JavaScript -->
     <script src="http://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="app.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
